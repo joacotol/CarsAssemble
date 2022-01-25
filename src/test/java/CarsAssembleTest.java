@@ -44,37 +44,31 @@ public class CarsAssembleTest {
         assertThat(carsAssemble.productionRatePerHour(10)).isEqualTo(1701.7);
     }
     
-    @Ignore
     @Test
     public void workingItemsPerMinuteForSpeedZero() {
         assertThat(carsAssemble.workingItemsPerMinute(0)).isEqualTo(0);
     }
 
-    @Ignore
     @Test
     public void workingItemsPerMinuteForSpeedOne() {
         assertThat(carsAssemble.workingItemsPerMinute(1)).isEqualTo(3);
     }
 
-    @Ignore
     @Test
     public void workingItemsPerMinuteForSpeedFive() {
         assertThat(carsAssemble.workingItemsPerMinute(5)).isEqualTo(16);
     }
 
-    @Ignore
     @Test
     public void workingItemsPerMinuteForSpeedEight() {
         assertThat(carsAssemble.workingItemsPerMinute(8)).isEqualTo(26);
     }
 
-    @Ignore
     @Test
     public void workingItemsPerMinuteForSpeedNine() {
         assertThat(carsAssemble.workingItemsPerMinute(9)).isEqualTo(26);
     }
 
-    @Ignore
     @Test
     public void workingItemsPerMinuteForSpeedTen() {
         assertThat(carsAssemble.workingItemsPerMinute(10)).isEqualTo(28);
